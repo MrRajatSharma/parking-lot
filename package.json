@@ -1,0 +1,22 @@
+{
+  "name": "parking-lot",
+  "version": "1.0.0",
+  "description": "Parking lot",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "file-mode": "node src/index.js",
+    "test-unit": "mocha tests/specs.js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "4.2.0",
+    "chalk": "3.0.0",
+    "eslint": "6.6.0",
+    "mocha": "^7.1.2",
+    "nyc": "14.1.1"
+  }
+}
